@@ -8,8 +8,7 @@ import datetime
 st.set_page_config(layout="wide")
 
 st.title("Financial Analyzer")
-
-
+ 
 date_range = {
     'January': "2022-01-01 2022-01-30",
     "February": "2022-02-01 2022-02-29",
