@@ -1,0 +1,9 @@
+Place your file in the resources folder.
+Copy your file path when asked for fielpath.
+
+import pandas as pd.
+
+
+streamlit run .\bin\main.py
+
+https://discuss.streamlit.io/t/filter-dataframe-by-selections-made-in-select-box/6627
