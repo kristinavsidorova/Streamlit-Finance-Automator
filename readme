@@ -1,9 +1,18 @@
-Place your file in the resources folder.
-Copy your file path when asked for fielpath.
+## Directions
+1. Create an Inuit Mint account 
+    https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&nam
+2. Link and verify your banking accounts to your Mint account
+3. In the Inuit Mint homepage, uder the 'Transactions' tab on the left menu bar, press the settings gear icon and select 'Export Transactions'
+4. Save the CSV file onto your computer
+5. Download 'finance_automator' and open python
+6. Run ``pip install -r requirements.txt``
+7. Run ``pip install streamlit``
+8. Run ``streamlit hello`` and set up a streamlit account
+9. Run ``streamlit run ./bin/streamlit_app.py``
+10. The local host will open in the browser. Input your transaction CSV file into the 'Drag and drop' input
+11. Choose a month using the 'Choose date' dropdown
+12. Your expense and income will be displayed as well as category spending and monthly totals
 
-import pandas as pd.
 
 
-streamlit run .\bin\main.py
 
-https://discuss.streamlit.io/t/filter-dataframe-by-selections-made-in-select-box/6627
